@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153155A02514645500276EA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531559F2514645500276EA9 /* AppDelegate.m */; };
+		153155A62514645500276EA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153155A52514645500276EA9 /* ViewController.m */; };
+		153155A92514645500276EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153155A72514645500276EA9 /* Main.storyboard */; };
+		153155AB2514645600276EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153155AA2514645600276EA9 /* Assets.xcassets */; };
+		153155AE2514645600276EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153155AC2514645600276EA9 /* LaunchScreen.storyboard */; };
+		153155B12514645600276EA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153155B02514645600276EA9 /* main.m */; };
+		153155D12514A3B300276EA9 /* QMUIAlbmManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 153155D02514A3B300276EA9 /* QMUIAlbmManager.m */; };
+		15D9517A2536E36F00968DDD /* CoinFalcon (完成).ipa in Resources */ = {isa = PBXBuildFile; fileRef = 15D951792536E36F00968DDD /* CoinFalcon (完成).ipa */; };
+		15D9517D2536E51700968DDD /* CoinFalcon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15D9517C2536E51700968DDD /* CoinFalcon.plist */; };
+		15EE83DA2515B2FA00A8173C /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EE83D92515B2FA00A8173C /* SubViewController.m */; };
+		91AA7FE01D8DBE0F7BAE0063 /* Pods_QMUITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A4FD01301895FE9076D3C5 /* Pods_QMUITest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1531559B2514645500276EA9 /* QMUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1531559E2514645500276EA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1531559F2514645500276EA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		153155A42514645500276EA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		153155A52514645500276EA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		153155A82514645500276EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		153155AA2514645600276EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		153155AD2514645600276EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		153155AF2514645600276EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153155B02514645600276EA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		153155CF2514A3B300276EA9 /* QMUIAlbmManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIAlbmManager.h; sourceTree = "<group>"; };
+		153155D02514A3B300276EA9 /* QMUIAlbmManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIAlbmManager.m; sourceTree = "<group>"; };
+		15D951792536E36F00968DDD /* CoinFalcon (完成).ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CoinFalcon (完成).ipa"; sourceTree = "<group>"; };
+		15D9517C2536E51700968DDD /* CoinFalcon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoinFalcon.plist; sourceTree = "<group>"; };
+		15EE83D82515B2FA00A8173C /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		15EE83D92515B2FA00A8173C /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		68F42C769607B769C0C2F263 /* Pods-QMUITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUITest.debug.xcconfig"; path = "Target Support Files/Pods-QMUITest/Pods-QMUITest.debug.xcconfig"; sourceTree = "<group>"; };
+		92A4FD01301895FE9076D3C5 /* Pods_QMUITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMUITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7128F5EBE0FDBD5D7F0A528 /* Pods-QMUITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUITest.release.xcconfig"; path = "Target Support Files/Pods-QMUITest/Pods-QMUITest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153155982514645500276EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AA7FE01D8DBE0F7BAE0063 /* Pods_QMUITest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153155922514645500276EA9 = {
+			isa = PBXGroup;
+			children = (
+				15D951792536E36F00968DDD /* CoinFalcon (完成).ipa */,
+				15D9517C2536E51700968DDD /* CoinFalcon.plist */,
+				1531559D2514645500276EA9 /* QMUITest */,
+				1531559C2514645500276EA9 /* Products */,
+				D4F1AD622374AC2E278A4D61 /* Pods */,
+				87B12FC442C852E57E10EDF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1531559C2514645500276EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1531559B2514645500276EA9 /* QMUITest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1531559D2514645500276EA9 /* QMUITest */ = {
+			isa = PBXGroup;
+			children = (
+				1531559E2514645500276EA9 /* AppDelegate.h */,
+				1531559F2514645500276EA9 /* AppDelegate.m */,
+				153155A42514645500276EA9 /* ViewController.h */,
+				153155A52514645500276EA9 /* ViewController.m */,
+				15EE83D82515B2FA00A8173C /* SubViewController.h */,
+				15EE83D92515B2FA00A8173C /* SubViewController.m */,
+				153155CF2514A3B300276EA9 /* QMUIAlbmManager.h */,
+				153155D02514A3B300276EA9 /* QMUIAlbmManager.m */,
+				153155A72514645500276EA9 /* Main.storyboard */,
+				153155AA2514645600276EA9 /* Assets.xcassets */,
+				153155AC2514645600276EA9 /* LaunchScreen.storyboard */,
+				153155AF2514645600276EA9 /* Info.plist */,
+				153155B02514645600276EA9 /* main.m */,
+			);
+			path = QMUITest;
+			sourceTree = "<group>";
+		};
+		87B12FC442C852E57E10EDF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A4FD01301895FE9076D3C5 /* Pods_QMUITest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F1AD622374AC2E278A4D61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68F42C769607B769C0C2F263 /* Pods-QMUITest.debug.xcconfig */,
+				A7128F5EBE0FDBD5D7F0A528 /* Pods-QMUITest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1531559A2514645500276EA9 /* QMUITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153155B42514645600276EA9 /* Build configuration list for PBXNativeTarget "QMUITest" */;
+			buildPhases = (
+				C144BBCFD15C12AF91EA1F2E /* [CP] Check Pods Manifest.lock */,
+				153155972514645500276EA9 /* Sources */,
+				153155982514645500276EA9 /* Frameworks */,
+				153155992514645500276EA9 /* Resources */,
+				08BEACA8D1A06A9D4A3A2B87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMUITest;
+			productName = QMUITest;
+			productReference = 1531559B2514645500276EA9 /* QMUITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153155932514645500276EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1531559A2514645500276EA9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 153155962514645500276EA9 /* Build configuration list for PBXProject "QMUITest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 153155922514645500276EA9;
+			productRefGroup = 1531559C2514645500276EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1531559A2514645500276EA9 /* QMUITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153155992514645500276EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D9517A2536E36F00968DDD /* CoinFalcon (完成).ipa in Resources */,
+				153155AE2514645600276EA9 /* LaunchScreen.storyboard in Resources */,
+				153155AB2514645600276EA9 /* Assets.xcassets in Resources */,
+				153155A92514645500276EA9 /* Main.storyboard in Resources */,
+				15D9517D2536E51700968DDD /* CoinFalcon.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08BEACA8D1A06A9D4A3A2B87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QMUITest/Pods-QMUITest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QMUITest/Pods-QMUITest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QMUITest/Pods-QMUITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C144BBCFD15C12AF91EA1F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QMUITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153155972514645500276EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EE83DA2515B2FA00A8173C /* SubViewController.m in Sources */,
+				153155A62514645500276EA9 /* ViewController.m in Sources */,
+				153155A02514645500276EA9 /* AppDelegate.m in Sources */,
+				153155B12514645600276EA9 /* main.m in Sources */,
+				153155D12514A3B300276EA9 /* QMUIAlbmManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		153155A72514645500276EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153155A82514645500276EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		153155AC2514645600276EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153155AD2514645600276EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153155B22514645600276EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		153155B32514645600276EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		153155B52514645600276EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F42C769607B769C0C2F263 /* Pods-QMUITest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKTWSX8Z9K;
+				INFOPLIST_FILE = QMUITest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiuu.QMUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		153155B62514645600276EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7128F5EBE0FDBD5D7F0A528 /* Pods-QMUITest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKTWSX8Z9K;
+				INFOPLIST_FILE = QMUITest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uiuu.QMUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153155962514645500276EA9 /* Build configuration list for PBXProject "QMUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153155B22514645600276EA9 /* Debug */,
+				153155B32514645600276EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153155B42514645600276EA9 /* Build configuration list for PBXNativeTarget "QMUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153155B52514645600276EA9 /* Debug */,
+				153155B62514645600276EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153155932514645500276EA9 /* Project object */;
+}
